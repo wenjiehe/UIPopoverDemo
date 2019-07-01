@@ -15,6 +15,12 @@
 		3D0FBE8022BFDD880093E87F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FBE7F22BFDD880093E87F /* main.m */; };
 		3D0FBE8822BFE6CE0093E87F /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FBE8722BFE6CE0093E87F /* MenuTableViewController.m */; };
 		3D0FBE8C22BFFA7E0093E87F /* record3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3D0FBE8B22BFFA7E0093E87F /* record3.gif */; };
+		3D1389B522CA7D7700593525 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1389B422CA7D7700593525 /* AppDelegate.swift */; };
+		3D1389B722CA7D7700593525 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1389B622CA7D7700593525 /* ViewController.swift */; };
+		3D1389BA22CA7D7700593525 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1389B822CA7D7700593525 /* Main.storyboard */; };
+		3D1389BC22CA7D7C00593525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1389BB22CA7D7C00593525 /* Assets.xcassets */; };
+		3D1389BF22CA7D7C00593525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1389BD22CA7D7C00593525 /* LaunchScreen.storyboard */; };
+		3D1389C522CA7E1800593525 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1389C422CA7E1800593525 /* MenuTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,10 +37,25 @@
 		3D0FBE8622BFE6CE0093E87F /* MenuTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
 		3D0FBE8722BFE6CE0093E87F /* MenuTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
 		3D0FBE8B22BFFA7E0093E87F /* record3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = record3.gif; sourceTree = "<group>"; };
+		3D1389B222CA7D7600593525 /* UIPopoverDemo-Swfit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIPopoverDemo-Swfit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1389B422CA7D7700593525 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D1389B622CA7D7700593525 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D1389B922CA7D7700593525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D1389BB22CA7D7C00593525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D1389BE22CA7D7C00593525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D1389C022CA7D7C00593525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D1389C422CA7E1800593525 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3D0FBE6A22BFDD850093E87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D1389AF22CA7D7600593525 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				3D0FBE6F22BFDD850093E87F /* UIPopoverDemo */,
+				3D1389B322CA7D7700593525 /* UIPopoverDemo-Swfit */,
 				3D0FBE6E22BFDD850093E87F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				3D0FBE6D22BFDD850093E87F /* UIPopoverDemo.app */,
+				3D1389B222CA7D7600593525 /* UIPopoverDemo-Swfit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +102,20 @@
 			path = UIPopoverDemo;
 			sourceTree = "<group>";
 		};
+		3D1389B322CA7D7700593525 /* UIPopoverDemo-Swfit */ = {
+			isa = PBXGroup;
+			children = (
+				3D1389B422CA7D7700593525 /* AppDelegate.swift */,
+				3D1389B622CA7D7700593525 /* ViewController.swift */,
+				3D1389C422CA7E1800593525 /* MenuTableViewController.swift */,
+				3D1389B822CA7D7700593525 /* Main.storyboard */,
+				3D1389BB22CA7D7C00593525 /* Assets.xcassets */,
+				3D1389BD22CA7D7C00593525 /* LaunchScreen.storyboard */,
+				3D1389C022CA7D7C00593525 /* Info.plist */,
+			);
+			path = "UIPopoverDemo-Swfit";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,16 +136,37 @@
 			productReference = 3D0FBE6D22BFDD850093E87F /* UIPopoverDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3D1389B122CA7D7600593525 /* UIPopoverDemo-Swfit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D1389C322CA7D7C00593525 /* Build configuration list for PBXNativeTarget "UIPopoverDemo-Swfit" */;
+			buildPhases = (
+				3D1389AE22CA7D7600593525 /* Sources */,
+				3D1389AF22CA7D7600593525 /* Frameworks */,
+				3D1389B022CA7D7600593525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIPopoverDemo-Swfit";
+			productName = "UIPopoverDemo-Swfit";
+			productReference = 3D1389B222CA7D7600593525 /* UIPopoverDemo-Swfit.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		3D0FBE6522BFDD850093E87F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "贺文杰";
 				TargetAttributes = {
 					3D0FBE6C22BFDD850093E87F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					3D1389B122CA7D7600593525 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -127,6 +185,7 @@
 			projectRoot = "";
 			targets = (
 				3D0FBE6C22BFDD850093E87F /* UIPopoverDemo */,
+				3D1389B122CA7D7600593525 /* UIPopoverDemo-Swfit */,
 			);
 		};
 /* End PBXProject section */
@@ -143,6 +202,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3D1389B022CA7D7600593525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1389BF22CA7D7C00593525 /* LaunchScreen.storyboard in Resources */,
+				3D1389BC22CA7D7C00593525 /* Assets.xcassets in Resources */,
+				3D1389BA22CA7D7700593525 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -154,6 +223,16 @@
 				3D0FBE7522BFDD850093E87F /* ViewController.m in Sources */,
 				3D0FBE8022BFDD880093E87F /* main.m in Sources */,
 				3D0FBE7222BFDD850093E87F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D1389AE22CA7D7600593525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1389B722CA7D7700593525 /* ViewController.swift in Sources */,
+				3D1389B522CA7D7700593525 /* AppDelegate.swift in Sources */,
+				3D1389C522CA7E1800593525 /* MenuTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +251,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				3D0FBE7C22BFDD880093E87F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3D1389B822CA7D7700593525 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D1389B922CA7D7700593525 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D1389BD22CA7D7C00593525 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D1389BE22CA7D7C00593525 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -327,6 +422,48 @@
 			};
 			name = Release;
 		};
+		3D1389C122CA7D7C00593525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "UIPopoverDemo-Swfit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hwj.UIPopoverDemo-Swfit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D1389C222CA7D7C00593525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "UIPopoverDemo-Swfit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hwj.UIPopoverDemo-Swfit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -344,6 +481,15 @@
 			buildConfigurations = (
 				3D0FBE8422BFDD880093E87F /* Debug */,
 				3D0FBE8522BFDD880093E87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D1389C322CA7D7C00593525 /* Build configuration list for PBXNativeTarget "UIPopoverDemo-Swfit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1389C122CA7D7C00593525 /* Debug */,
+				3D1389C222CA7D7C00593525 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
