@@ -1,5 +1,4 @@
 ### UIPopoverPresentationController
-包含OC和Swift
 UIPopoverPresentationController的使用
 
 ---
